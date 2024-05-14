@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('https://www.shutterstock.com/shutterstock/photos/384639760/display_1500/stock-photo-coffee-cup-and-notebook-with-to-do-list-on-blue-rustic-desk-from-above-planning-and-design-concept-384639760.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.container {
+    background-color: rgba(120, 197, 204, 0.68);
+    padding: 70px;
+    border-radius: 25px;
+    margin-bottom: 80px;
+    margin-left:450px;
+    margin-top: 20px;
+    
+    
+    
+}
+
+#todoContainer {
+    margin-top: 10px;
+
+}
+
+#todoForm {
+    margin-bottom: 20px;
+    
+    
+}
+
+#todoList {
+    list-style-type: none;
+    padding: 0;
+}
+
+.todoItem {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+    text-size-adjust: 20px;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: #0e0b0b;
+    
+}
+
+.todoItem button {
+    margin-left: 5px;
+    background-color:rgb(123, 220, 239);
+    border-radius: 20px;
+}
